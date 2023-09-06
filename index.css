@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    background-color: #14101f;
+}
+#head {
+    color: #00d8ff;
+    text-align: center;
+    font-family: tahoma;
+    margin-top: 65px;
+}
+#do {
+    color: #939697;
+}
+.container {
+width: 50%;
+min-width: 450px;
+margin-top: 4%;
+margin-left: 25%;
+background-color: #25203a;
+border-radius: 10px;
+padding: 30px 20px;
+margin-bottom: 20px;
+
+}
+.top {
+    position: relative;
+}
+#taskinput {
+    width: 75%;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#taskinput:focus {
+    outline: none;
+    border-color: #00d8ff;
+}
+#button1 {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #00d8ff;
+    border: none;
+    color: #1d1515;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+#button1:hover {
+    background-color: #939697;
+    color: #00d8ff;
+    font-size: larger;
+}
+.alltask{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.del {
+    float: right;
+    margin-right: 40px;
+}
+.del:hover {
+    font-size: larger;
+}
+#alltask {
+background-color: #90d4ff;
+height: 50px;
+margin-bottom: 8px;
+padding: 5px 10px;
+display: flex;
+border-radius: 5px;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+font-weight: bold;
+border: 1px solid #939697;
+}
+footer {
+    margin-top: 5%;
+    background-color: #5e6568;
+    width: 350px;
+    height: 90px;
+    padding-top: 5px;
+    border-radius: 30px;
+    margin-left: 35%;
+    text-align: center;
+    color: #25203a;
+}
+#hat {
+    color: #90d4ff; 
+    cursor: pointer;
+}
+hr {
+    color: #5e6568;
+}
+
+@media (max-width: 1040px) {
+    .container {
+        min-width: 325px;
+        margin-top: 70px;
+        margin-left: 12%;
+        margin-bottom: 100px;
+    }
+    #taskinput {
+        width: 220px;
+    }
+    footer {
+        margin-top: 10px;
+        margin-left: 13%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        min-width: 325px;
+        margin-top: 25%;
+        margin-left: 3%;
+        margin-bottom: 100px;
+    }
+    #taskinput {
+        width: 220px;
+    }
+    footer {
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+}
