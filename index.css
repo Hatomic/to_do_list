@@ -66,6 +66,15 @@ margin-bottom: 20px;
     color: #00d8ff;
     font-size: larger;
 }
+.delete {
+    background-color: #939697;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.delete:hover {
+background-color: #5e6568;
+}
 .alltask{
     margin-top: 20px;
     border-radius: 10px;
